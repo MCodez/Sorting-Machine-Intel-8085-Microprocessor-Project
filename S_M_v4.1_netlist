@@ -1,0 +1,438 @@
+Netlist
+
+Exported from SortingMachine_v4.1.sch at 19-05-2017 21:03
+
+EAGLE Version 8.2.0 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Net       Part          Pad      Pin        Sheet
+
+A0        8254-COUNTER  19       A0         1
+          8255-PPE      9        A0         1
+          ADDLATCH      19       1Q         1
+          RAM-62256P    10       A0         1
+          ROM-58C256    10       A0         1
+
+A1        8254-COUNTER  20       A1         1
+          8255-PPE      8        A1         1
+          ADDLATCH      18       2Q         1
+          RAM-62256P    9        A1         1
+          ROM-58C256    9        A1         1
+
+A2        ADDLATCH      17       3Q         1
+          RAM-62256P    8        A2         1
+          ROM-58C256    8        A2         1
+
+A3        ADDLATCH      16       4Q         1
+          RAM-62256P    7        A3         1
+          ROM-58C256    7        A3         1
+
+A4        ADDLATCH      15       5Q         1
+          RAM-62256P    6        A4         1
+          ROM-58C256    6        A4         1
+
+A5        ADDLATCH      14       6Q         1
+          RAM-62256P    5        A5         1
+          ROM-58C256    5        A5         1
+
+A6        ADDLATCH      13       7Q         1
+          RAM-62256P    4        A6         1
+          ROM-58C256    4        A6         1
+
+A7        8255-PPE      6        CS         1
+          ADDLATCH      12       8Q         1
+          IC1           3        I          1
+          RAM-62256P    3        A7         1
+          ROM-58C256    3        A7         1
+
+A7*       8254-COUNTER  21       CS         1
+          IC1           4        O          1
+
+A8        8085-MPU      21       A8         1
+          P21-30        1        1          1
+          RAM-62256P    25       A8         1
+          ROM-58C256    25       A8         1
+
+A9        8085-MPU      22       A9         1
+          P21-30        2        2          1
+          RAM-62256P    24       A9         1
+          ROM-58C256    24       A9         1
+
+A10       8085-MPU      23       A10        1
+          P21-30        3        3          1
+          RAM-62256P    21       A10        1
+          ROM-58C256    21       A10        1
+
+A11       8085-MPU      24       A11        1
+          P21-30        4        4          1
+          RAM-62256P    23       A11        1
+          ROM-58C256    23       A11        1
+
+A12       8085-MPU      25       A12        1
+          P21-30        5        5          1
+          RAM-62256P    2        A12        1
+          ROM-58C256    2        A12        1
+
+A13       8085-MPU      26       A13        1
+          P21-30        6        6          1
+          RAM-62256P    26       A13        1
+          ROM-58C256    26       A13        1
+
+A14       8085-MPU      27       A14        1
+          P21-30        7        7          1
+          RAM-62256P    1        A14        1
+          ROM-58C256    1        A14        1
+
+A15       8085-MPU      28       A15        1
+          IC1           1        I          1
+          P21-30        8        8          1
+          ROM-58C256    20       !CE        1
+
+A15*      IC1           2        O          1
+          RAM-62256P    20       !CS        1
+
+AD0       8085-MPU      12       AD0        1
+          8254-COUNTER  8        D0         1
+          8255-PPE      34       D0         1
+          ADDLATCH      2        1D         1
+          P11-20        2        2          1
+          RAM-62256P    11       I/O0       1
+          ROM-58C256    11       I/O0       1
+
+AD1       8085-MPU      13       AD1        1
+          8254-COUNTER  7        D1         1
+          8255-PPE      33       D1         1
+          ADDLATCH      3        2D         1
+          P11-20        3        3          1
+          RAM-62256P    12       I/O1       1
+          ROM-58C256    12       I/O1       1
+
+AD2       8085-MPU      14       AD2        1
+          8254-COUNTER  6        D2         1
+          8255-PPE      32       D2         1
+          ADDLATCH      4        3D         1
+          P11-20        4        4          1
+          RAM-62256P    13       I/O2       1
+          ROM-58C256    13       I/O2       1
+
+AD3       8085-MPU      15       AD3        1
+          8254-COUNTER  5        D3         1
+          8255-PPE      31       D3         1
+          ADDLATCH      5        4D         1
+          P11-20        5        5          1
+          RAM-62256P    15       I/O3       1
+          ROM-58C256    15       I/O3       1
+
+AD4       8085-MPU      16       AD4        1
+          8254-COUNTER  4        D4         1
+          8255-PPE      30       D4         1
+          ADDLATCH      6        5D         1
+          P11-20        6        6          1
+          RAM-62256P    16       I/O4       1
+          ROM-58C256    16       I/O4       1
+
+AD5       8085-MPU      17       AD5        1
+          8254-COUNTER  3        D5         1
+          8255-PPE      29       D5         1
+          ADDLATCH      7        6D         1
+          P11-20        7        7          1
+          RAM-62256P    17       I/O5       1
+          ROM-58C256    17       I/O5       1
+
+AD6       8085-MPU      18       AD6        1
+          8254-COUNTER  2        D6         1
+          8255-PPE      28       D6         1
+          ADDLATCH      8        7D         1
+          P11-20        8        8          1
+          RAM-62256P    18       I/O6       1
+          ROM-58C256    18       I/O6       1
+
+AD7       8085-MPU      19       AD7        1
+          8254-COUNTER  1        D7         1
+          8255-PPE      27       D7         1
+          ADDLATCH      9        8D         1
+          P11-20        9        9          1
+          RAM-62256P    19       I/O7       1
+          ROM-58C256    19       I/O7       1
+
+ALE       8085-MPU      30       ALE        1
+          ADDLATCH      11       C          1
+          P21-30        10       10         1
+
+CLK_OUT   8085-MPU      37       CLK        1
+          8254-COUNTER  15       CLK1       1
+          COUNTER1      3        3          1
+          P31-40        7        7          1
+
+GATE1     8254-COUNTER  14       GATE1      1
+          COUNTER1      2        2          1
+          R12           1        1          1
+
+GATE2     8254-COUNTER  16       GATE2      1
+          COUNTER2      1        1          1
+          R13           1        1          1
+
+GND       8085-MPU      20       VSS        1
+          8254-COUNTER  12       GND        1
+          8255-PPE      7        GND        1
+          ADDLATCH      1        OC         1
+          ADDLATCH      10       GND        1
+          C16           2        2          1
+          C17           -        -          1
+          C18           2        2          1
+          C19           2        2          1
+          C20           2        2          1
+          C24           2        2          1
+          C25           2        2          1
+          C26           2        2          1
+          C27           2        2          1
+          C29           2        2          1
+          C31           2        2          1
+          C33           2        2          1
+          C7            2        2          1
+          C8            -        -          1
+          C9            -        -          1
+          IC1           7        GND        1
+          MEM-DEC       4        G2A        1
+          MEM-DEC       5        G2B        1
+          MEM-DEC       8        GND        1
+          P11-20        10       10         1
+          PWR           K        C          1
+          PWR5          2        2          1
+          R3            1        1          1
+          R4            1        1          1
+          R5            1        1          1
+          R6            1        1          1
+          R7            1        1          1
+          R8            1        1          1
+          RAM-62256P    14       VSS        1
+          RESET         4        P1         1
+          ROM-58C256    14       VSS        1
+          SID           4        P1         1
+          SOD           K        C          1
+          TCS0          3        3          1
+          TCS0          4        4          1
+          USB           GND      GND        1
+
+HLDA      8085-MPU      38       HLDA       1
+          P31-40        8        8          1
+
+HOLD      8085-MPU      39       HOLD       1
+          P31-40        9        9          1
+          R3            2        2          1
+
+INTA*     8085-MPU      11       INTA       1
+          P11-20        1        1          1
+
+INTR      8085-MPU      10       INTR       1
+          P1-10         10       10         1
+          R4            2        2          1
+
+IO/M*     8085-MPU      34       IO/!M      1
+          MEM-DEC       3        C          1
+          P31-40        4        4          1
+
+IOR*      8254-COUNTER  22       RD         1
+          8255-PPE      5        RD         1
+          MEM-DEC       10       Y5         1
+
+IOW*      8254-COUNTER  23       WR         1
+          8255-PPE      36       WR         1
+          MEM-DEC       9        Y6         1
+
+MR*       MEM-DEC       14       Y1         1
+          RAM-62256P    22       !OE        1
+          ROM-58C256    22       !OE        1
+
+MW*       MEM-DEC       13       Y2         1
+          RAM-62256P    27       !WE        1
+
+N$25      R15           1        1          1
+          SOD           A        A          1
+
+N$39      PWR           A        A          1
+          R14           2        2          1
+
+OUT0      8254-COUNTER  10       OUT0       1
+          COUNTER0      2        2          1
+
+OUT1/CLK2 8254-COUNTER  13       OUT1       1
+          8254-COUNTER  18       CLK2       1
+          COUNTER1      1        1          1
+          COUNTER2      3        3          1
+
+PA0       8255-PPE      4        PA0        1
+          PORT_A_MOTORS 1        1          1
+
+PA1       8255-PPE      3        PA1        1
+          PORT_A_MOTORS 2        2          1
+
+PA2       8255-PPE      2        PA2        1
+          PORT_A_MOTORS 3        3          1
+
+PA3       8255-PPE      1        PA3        1
+          PORT_A_MOTORS 4        4          1
+
+PA4       8255-PPE      40       PA4        1
+          PORT_A_MOTORS 5        5          1
+
+PA5       8255-PPE      39       PA5        1
+          PORT_A_MOTORS 6        6          1
+
+PA6       8255-PPE      38       PA6        1
+          PORT_A_MOTORS 7        7          1
+
+PA7       8255-PPE      37       PA7        1
+          PORT_A_MOTORS 8        8          1
+
+PB0       8255-PPE      18       PB0        1
+          PORTB         1        1          1
+
+PB1       8255-PPE      19       PB1        1
+          PORTB         2        2          1
+
+PB2       8255-PPE      20       PB2        1
+          PORTB         3        3          1
+
+PB3       8255-PPE      21       PB3        1
+          PORTB         4        4          1
+
+PB4       8255-PPE      22       PB4        1
+          PORTB         5        5          1
+
+PB5       8255-PPE      23       PB5        1
+          PORTB         6        6          1
+
+PB6       8255-PPE      24       PB6        1
+          PORTB         7        7          1
+
+PB7       8255-PPE      25       PB7        1
+          PORTB         8        8          1
+
+PC0       8255-PPE      14       PC0        1
+          PORT_C_L_TCS1 1        1          1
+
+PC1       8255-PPE      15       PC1        1
+          PORT_C_L_TCS1 2        2          1
+
+PC2       8255-PPE      16       PC2        1
+          PORT_C_L_TCS1 3        3          1
+
+PC3       8255-PPE      17       PC3        1
+          PORT_C_L_TCS1 4        4          1
+
+PC4       8255-PPE      13       PC4        1
+          PORT_C_H_IR   1        1          1
+
+PC5       8255-PPE      12       PC5        1
+          PORT_C_H_IR   2        2          1
+
+PC6       8255-PPE      11       PC6        1
+          PORT_C_H_IR   3        3          1
+
+PC7       8255-PPE      10       PC7        1
+          PORT_C_H_IR   4        4          1
+
+RD*       8085-MPU      32       RD         1
+          MEM-DEC       2        B          1
+          P31-40        2        2          1
+
+READY     8085-MPU      35       READY      1
+          P31-40        5        5          1
+          R2            2        2          1
+
+RES_IN    8085-MPU      36       RES_IN     1
+          C29           1        1          1
+          C8            +        +          1
+          P31-40        6        6          1
+          R9            2        2          1
+          RESET         2        S1         1
+
+RES_OUT   8085-MPU      3        RES_OUT    1
+          8255-PPE      35       RESET      1
+          P1-10         3        3          1
+
+RST5_5    8085-MPU      9        RST5_5     1
+          P1-10         9        9          1
+          R5            2        2          1
+
+RST6_5    8085-MPU      8        RST6_5     1
+          P1-10         8        8          1
+          R6            2        2          1
+
+RST7_5    8085-MPU      7        RST7_5     1
+          8254-COUNTER  11       GATE0      1
+          8254-COUNTER  17       OUT2       1
+          COUNTER0      3        3          1
+          COUNTER2      2        2          1
+          P1-10         7        7          1
+          R7            2        2          1
+
+S0        8085-MPU      29       S0         1
+          P21-30        9        9          1
+
+S1        8085-MPU      33       S1         1
+          P31-40        3        3          1
+
+SENSOROUT 8254-COUNTER  9        CLK0       1
+          COUNTER0      1        1          1
+          TCS0          2        2          1
+
+SID       8085-MPU      5        SID        1
+          C31           1        1          1
+          C9            +        +          1
+          P1-10         5        5          1
+          R10           2        2          1
+          SID           2        S1         1
+
+SOD       8085-MPU      4        SOD        1
+          P1-10         4        4          1
+          R15           2        2          1
+
+TRAP      8085-MPU      6        TRAP       1
+          P1-10         6        6          1
+          R8            2        2          1
+
+VCC       8085-MPU      40       VCC        1
+          8254-COUNTER  24       VCC        1
+          8255-PPE      26       VCC        1
+          ADDLATCH      20       VCC        1
+          C16           1        1          1
+          C17           +        +          1
+          C18           1        1          1
+          C19           1        1          1
+          C20           1        1          1
+          C24           1        1          1
+          C25           1        1          1
+          C26           1        1          1
+          C27           1        1          1
+          C33           1        1          1
+          IC1           14       VCC        1
+          MEM-DEC       16       VCC        1
+          MEM-DEC       6        G1         1
+          P31-40        10       10         1
+          PWR5          1        1          1
+          R10           1        1          1
+          R12           2        2          1
+          R13           2        2          1
+          R14           1        1          1
+          R2            1        1          1
+          R9            1        1          1
+          RAM-62256P    28       VCC        1
+          ROM-58C256    27       !WE        1
+          ROM-58C256    28       VCC        1
+          TCS0          1        1          1
+          USB           VBUS     VCC        1
+
+WR*       8085-MPU      31       WR         1
+          MEM-DEC       1        A          1
+          P31-40        1        1          1
+
+X1        8085-MPU      1        X1         1
+          CRYSTAL       2        2          1
+          P1-10         1        1          1
+
+X2        8085-MPU      2        X2         1
+          C7            1        1          1
+          CRYSTAL       1        1          1
+          P1-10         2        2          1
+

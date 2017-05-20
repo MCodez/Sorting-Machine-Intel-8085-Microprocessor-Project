@@ -1,0 +1,521 @@
+# NetScript
+# 
+# Exported from SortingMachine_v4.1.sch at 19-05-2017 21:04
+# 
+# EAGLE Version 8.2.0 Copyright (c) 1988-2017 Autodesk, Inc.
+# 
+Change Class 0;
+Signal 'A0'       '8254-COUNTER' '19' \
+                  '8255-PPE' '9' \
+                  'ADDLATCH' '19' \
+                  'RAM-62256P' '10' \
+                  'ROM-58C256' '10' \
+                  ;
+Change Class 0;
+Signal 'A1'       '8254-COUNTER' '20' \
+                  '8255-PPE' '8' \
+                  'ADDLATCH' '18' \
+                  'RAM-62256P' '9' \
+                  'ROM-58C256' '9' \
+                  ;
+Change Class 0;
+Signal 'A2'       'ADDLATCH' '17' \
+                  'RAM-62256P' '8' \
+                  'ROM-58C256' '8' \
+                  ;
+Change Class 0;
+Signal 'A3'       'ADDLATCH' '16' \
+                  'RAM-62256P' '7' \
+                  'ROM-58C256' '7' \
+                  ;
+Change Class 0;
+Signal 'A4'       'ADDLATCH' '15' \
+                  'RAM-62256P' '6' \
+                  'ROM-58C256' '6' \
+                  ;
+Change Class 0;
+Signal 'A5'       'ADDLATCH' '14' \
+                  'RAM-62256P' '5' \
+                  'ROM-58C256' '5' \
+                  ;
+Change Class 0;
+Signal 'A6'       'ADDLATCH' '13' \
+                  'RAM-62256P' '4' \
+                  'ROM-58C256' '4' \
+                  ;
+Change Class 0;
+Signal 'A7'       '8255-PPE' '6' \
+                  'ADDLATCH' '12' \
+                  'IC1'      '3' \
+                  'RAM-62256P' '3' \
+                  'ROM-58C256' '3' \
+                  ;
+Change Class 0;
+Signal 'A7*'      '8254-COUNTER' '21' \
+                  'IC1'      '4' \
+                  ;
+Change Class 0;
+Signal 'A8'       '8085-MPU' '21' \
+                  'P21-30'   '1' \
+                  'RAM-62256P' '25' \
+                  'ROM-58C256' '25' \
+                  ;
+Change Class 0;
+Signal 'A9'       '8085-MPU' '22' \
+                  'P21-30'   '2' \
+                  'RAM-62256P' '24' \
+                  'ROM-58C256' '24' \
+                  ;
+Change Class 0;
+Signal 'A10'      '8085-MPU' '23' \
+                  'P21-30'   '3' \
+                  'RAM-62256P' '21' \
+                  'ROM-58C256' '21' \
+                  ;
+Change Class 0;
+Signal 'A11'      '8085-MPU' '24' \
+                  'P21-30'   '4' \
+                  'RAM-62256P' '23' \
+                  'ROM-58C256' '23' \
+                  ;
+Change Class 0;
+Signal 'A12'      '8085-MPU' '25' \
+                  'P21-30'   '5' \
+                  'RAM-62256P' '2' \
+                  'ROM-58C256' '2' \
+                  ;
+Change Class 0;
+Signal 'A13'      '8085-MPU' '26' \
+                  'P21-30'   '6' \
+                  'RAM-62256P' '26' \
+                  'ROM-58C256' '26' \
+                  ;
+Change Class 0;
+Signal 'A14'      '8085-MPU' '27' \
+                  'P21-30'   '7' \
+                  'RAM-62256P' '1' \
+                  'ROM-58C256' '1' \
+                  ;
+Change Class 0;
+Signal 'A15'      '8085-MPU' '28' \
+                  'IC1'      '1' \
+                  'P21-30'   '8' \
+                  'ROM-58C256' '20' \
+                  ;
+Change Class 0;
+Signal 'A15*'     'IC1'      '2' \
+                  'RAM-62256P' '20' \
+                  ;
+Change Class 0;
+Signal 'AD0'      '8085-MPU' '12' \
+                  '8254-COUNTER' '8' \
+                  '8255-PPE' '34' \
+                  'ADDLATCH' '2' \
+                  'P11-20'   '2' \
+                  'RAM-62256P' '11' \
+                  'ROM-58C256' '11' \
+                  ;
+Change Class 0;
+Signal 'AD1'      '8085-MPU' '13' \
+                  '8254-COUNTER' '7' \
+                  '8255-PPE' '33' \
+                  'ADDLATCH' '3' \
+                  'P11-20'   '3' \
+                  'RAM-62256P' '12' \
+                  'ROM-58C256' '12' \
+                  ;
+Change Class 0;
+Signal 'AD2'      '8085-MPU' '14' \
+                  '8254-COUNTER' '6' \
+                  '8255-PPE' '32' \
+                  'ADDLATCH' '4' \
+                  'P11-20'   '4' \
+                  'RAM-62256P' '13' \
+                  'ROM-58C256' '13' \
+                  ;
+Change Class 0;
+Signal 'AD3'      '8085-MPU' '15' \
+                  '8254-COUNTER' '5' \
+                  '8255-PPE' '31' \
+                  'ADDLATCH' '5' \
+                  'P11-20'   '5' \
+                  'RAM-62256P' '15' \
+                  'ROM-58C256' '15' \
+                  ;
+Change Class 0;
+Signal 'AD4'      '8085-MPU' '16' \
+                  '8254-COUNTER' '4' \
+                  '8255-PPE' '30' \
+                  'ADDLATCH' '6' \
+                  'P11-20'   '6' \
+                  'RAM-62256P' '16' \
+                  'ROM-58C256' '16' \
+                  ;
+Change Class 0;
+Signal 'AD5'      '8085-MPU' '17' \
+                  '8254-COUNTER' '3' \
+                  '8255-PPE' '29' \
+                  'ADDLATCH' '7' \
+                  'P11-20'   '7' \
+                  'RAM-62256P' '17' \
+                  'ROM-58C256' '17' \
+                  ;
+Change Class 0;
+Signal 'AD6'      '8085-MPU' '18' \
+                  '8254-COUNTER' '2' \
+                  '8255-PPE' '28' \
+                  'ADDLATCH' '8' \
+                  'P11-20'   '8' \
+                  'RAM-62256P' '18' \
+                  'ROM-58C256' '18' \
+                  ;
+Change Class 0;
+Signal 'AD7'      '8085-MPU' '19' \
+                  '8254-COUNTER' '1' \
+                  '8255-PPE' '27' \
+                  'ADDLATCH' '9' \
+                  'P11-20'   '9' \
+                  'RAM-62256P' '19' \
+                  'ROM-58C256' '19' \
+                  ;
+Change Class 0;
+Signal 'ALE'      '8085-MPU' '30' \
+                  'ADDLATCH' '11' \
+                  'P21-30'   '10' \
+                  ;
+Change Class 0;
+Signal 'CLK_OUT'  '8085-MPU' '37' \
+                  '8254-COUNTER' '15' \
+                  'COUNTER1' '3' \
+                  'P31-40'   '7' \
+                  ;
+Change Class 0;
+Signal 'GATE1'    '8254-COUNTER' '14' \
+                  'COUNTER1' '2' \
+                  'R12'      '1' \
+                  ;
+Change Class 0;
+Signal 'GATE2'    '8254-COUNTER' '16' \
+                  'COUNTER2' '1' \
+                  'R13'      '1' \
+                  ;
+Change Class 1;
+Signal 'GND'      '8085-MPU' '20' \
+                  '8254-COUNTER' '12' \
+                  '8255-PPE' '7' \
+                  'ADDLATCH' '1' \
+                  'ADDLATCH' '10' \
+                  'C16'      '2' \
+                  'C17'      '-' \
+                  'C18'      '2' \
+                  'C19'      '2' \
+                  'C20'      '2' \
+                  'C24'      '2' \
+                  'C25'      '2' \
+                  'C26'      '2' \
+                  'C27'      '2' \
+                  'C29'      '2' \
+                  'C31'      '2' \
+                  'C33'      '2' \
+                  'C7'       '2' \
+                  'C8'       '-' \
+                  'C9'       '-' \
+                  'IC1'      '7' \
+                  'MEM-DEC'  '4' \
+                  'MEM-DEC'  '5' \
+                  'MEM-DEC'  '8' \
+                  'P11-20'   '10' \
+                  'PWR'      'K' \
+                  'PWR5'     '2' \
+                  'R3'       '1' \
+                  'R4'       '1' \
+                  'R5'       '1' \
+                  'R6'       '1' \
+                  'R7'       '1' \
+                  'R8'       '1' \
+                  'RAM-62256P' '14' \
+                  'RESET'    '4' \
+                  'ROM-58C256' '14' \
+                  'SID'      '4' \
+                  'SOD'      'K' \
+                  'TCS0'     '3' \
+                  'TCS0'     '4' \
+                  'USB'      'GND' \
+                  ;
+Change Class 0;
+Signal 'HLDA'     '8085-MPU' '38' \
+                  'P31-40'   '8' \
+                  ;
+Change Class 0;
+Signal 'HOLD'     '8085-MPU' '39' \
+                  'P31-40'   '9' \
+                  'R3'       '2' \
+                  ;
+Change Class 0;
+Signal 'INTA*'    '8085-MPU' '11' \
+                  'P11-20'   '1' \
+                  ;
+Change Class 0;
+Signal 'INTR'     '8085-MPU' '10' \
+                  'P1-10'    '10' \
+                  'R4'       '2' \
+                  ;
+Change Class 0;
+Signal 'IO/M*'    '8085-MPU' '34' \
+                  'MEM-DEC'  '3' \
+                  'P31-40'   '4' \
+                  ;
+Change Class 0;
+Signal 'IOR*'     '8254-COUNTER' '22' \
+                  '8255-PPE' '5' \
+                  'MEM-DEC'  '10' \
+                  ;
+Change Class 0;
+Signal 'IOW*'     '8254-COUNTER' '23' \
+                  '8255-PPE' '36' \
+                  'MEM-DEC'  '9' \
+                  ;
+Change Class 0;
+Signal 'MR*'      'MEM-DEC'  '14' \
+                  'RAM-62256P' '22' \
+                  'ROM-58C256' '22' \
+                  ;
+Change Class 0;
+Signal 'MW*'      'MEM-DEC'  '13' \
+                  'RAM-62256P' '27' \
+                  ;
+Change Class 0;
+Signal 'N$25'     'R15'      '1' \
+                  'SOD'      'A' \
+                  ;
+Change Class 0;
+Signal 'N$39'     'PWR'      'A' \
+                  'R14'      '2' \
+                  ;
+Change Class 0;
+Signal 'OUT0'     '8254-COUNTER' '10' \
+                  'COUNTER0' '2' \
+                  ;
+Change Class 0;
+Signal 'OUT1/CLK2' '8254-COUNTER' '13' \
+                  '8254-COUNTER' '18' \
+                  'COUNTER1' '1' \
+                  'COUNTER2' '3' \
+                  ;
+Change Class 0;
+Signal 'PA0'      '8255-PPE' '4' \
+                  'PORT_A_MOTORS' '1' \
+                  ;
+Change Class 0;
+Signal 'PA1'      '8255-PPE' '3' \
+                  'PORT_A_MOTORS' '2' \
+                  ;
+Change Class 0;
+Signal 'PA2'      '8255-PPE' '2' \
+                  'PORT_A_MOTORS' '3' \
+                  ;
+Change Class 0;
+Signal 'PA3'      '8255-PPE' '1' \
+                  'PORT_A_MOTORS' '4' \
+                  ;
+Change Class 0;
+Signal 'PA4'      '8255-PPE' '40' \
+                  'PORT_A_MOTORS' '5' \
+                  ;
+Change Class 0;
+Signal 'PA5'      '8255-PPE' '39' \
+                  'PORT_A_MOTORS' '6' \
+                  ;
+Change Class 0;
+Signal 'PA6'      '8255-PPE' '38' \
+                  'PORT_A_MOTORS' '7' \
+                  ;
+Change Class 0;
+Signal 'PA7'      '8255-PPE' '37' \
+                  'PORT_A_MOTORS' '8' \
+                  ;
+Change Class 0;
+Signal 'PB0'      '8255-PPE' '18' \
+                  'PORTB'    '1' \
+                  ;
+Change Class 0;
+Signal 'PB1'      '8255-PPE' '19' \
+                  'PORTB'    '2' \
+                  ;
+Change Class 0;
+Signal 'PB2'      '8255-PPE' '20' \
+                  'PORTB'    '3' \
+                  ;
+Change Class 0;
+Signal 'PB3'      '8255-PPE' '21' \
+                  'PORTB'    '4' \
+                  ;
+Change Class 0;
+Signal 'PB4'      '8255-PPE' '22' \
+                  'PORTB'    '5' \
+                  ;
+Change Class 0;
+Signal 'PB5'      '8255-PPE' '23' \
+                  'PORTB'    '6' \
+                  ;
+Change Class 0;
+Signal 'PB6'      '8255-PPE' '24' \
+                  'PORTB'    '7' \
+                  ;
+Change Class 0;
+Signal 'PB7'      '8255-PPE' '25' \
+                  'PORTB'    '8' \
+                  ;
+Change Class 0;
+Signal 'PC0'      '8255-PPE' '14' \
+                  'PORT_C_L_TCS1' '1' \
+                  ;
+Change Class 0;
+Signal 'PC1'      '8255-PPE' '15' \
+                  'PORT_C_L_TCS1' '2' \
+                  ;
+Change Class 0;
+Signal 'PC2'      '8255-PPE' '16' \
+                  'PORT_C_L_TCS1' '3' \
+                  ;
+Change Class 0;
+Signal 'PC3'      '8255-PPE' '17' \
+                  'PORT_C_L_TCS1' '4' \
+                  ;
+Change Class 0;
+Signal 'PC4'      '8255-PPE' '13' \
+                  'PORT_C_H_IR' '1' \
+                  ;
+Change Class 0;
+Signal 'PC5'      '8255-PPE' '12' \
+                  'PORT_C_H_IR' '2' \
+                  ;
+Change Class 0;
+Signal 'PC6'      '8255-PPE' '11' \
+                  'PORT_C_H_IR' '3' \
+                  ;
+Change Class 0;
+Signal 'PC7'      '8255-PPE' '10' \
+                  'PORT_C_H_IR' '4' \
+                  ;
+Change Class 0;
+Signal 'RD*'      '8085-MPU' '32' \
+                  'MEM-DEC'  '2' \
+                  'P31-40'   '2' \
+                  ;
+Change Class 0;
+Signal 'READY'    '8085-MPU' '35' \
+                  'P31-40'   '5' \
+                  'R2'       '2' \
+                  ;
+Change Class 0;
+Signal 'RES_IN'   '8085-MPU' '36' \
+                  'C29'      '1' \
+                  'C8'       '+' \
+                  'P31-40'   '6' \
+                  'R9'       '2' \
+                  'RESET'    '2' \
+                  ;
+Change Class 0;
+Signal 'RES_OUT'  '8085-MPU' '3' \
+                  '8255-PPE' '35' \
+                  'P1-10'    '3' \
+                  ;
+Change Class 0;
+Signal 'RST5_5'   '8085-MPU' '9' \
+                  'P1-10'    '9' \
+                  'R5'       '2' \
+                  ;
+Change Class 0;
+Signal 'RST6_5'   '8085-MPU' '8' \
+                  'P1-10'    '8' \
+                  'R6'       '2' \
+                  ;
+Change Class 0;
+Signal 'RST7_5'   '8085-MPU' '7' \
+                  '8254-COUNTER' '11' \
+                  '8254-COUNTER' '17' \
+                  'COUNTER0' '3' \
+                  'COUNTER2' '2' \
+                  'P1-10'    '7' \
+                  'R7'       '2' \
+                  ;
+Change Class 0;
+Signal 'S0'       '8085-MPU' '29' \
+                  'P21-30'   '9' \
+                  ;
+Change Class 0;
+Signal 'S1'       '8085-MPU' '33' \
+                  'P31-40'   '3' \
+                  ;
+Change Class 0;
+Signal 'SENSOROUT' '8254-COUNTER' '9' \
+                  'COUNTER0' '1' \
+                  'TCS0'     '2' \
+                  ;
+Change Class 0;
+Signal 'SID'      '8085-MPU' '5' \
+                  'C31'      '1' \
+                  'C9'       '+' \
+                  'P1-10'    '5' \
+                  'R10'      '2' \
+                  'SID'      '2' \
+                  ;
+Change Class 0;
+Signal 'SOD'      '8085-MPU' '4' \
+                  'P1-10'    '4' \
+                  'R15'      '2' \
+                  ;
+Change Class 0;
+Signal 'TRAP'     '8085-MPU' '6' \
+                  'P1-10'    '6' \
+                  'R8'       '2' \
+                  ;
+Change Class 1;
+Signal 'VCC'      '8085-MPU' '40' \
+                  '8254-COUNTER' '24' \
+                  '8255-PPE' '26' \
+                  'ADDLATCH' '20' \
+                  'C16'      '1' \
+                  'C17'      '+' \
+                  'C18'      '1' \
+                  'C19'      '1' \
+                  'C20'      '1' \
+                  'C24'      '1' \
+                  'C25'      '1' \
+                  'C26'      '1' \
+                  'C27'      '1' \
+                  'C33'      '1' \
+                  'IC1'      '14' \
+                  'MEM-DEC'  '16' \
+                  'MEM-DEC'  '6' \
+                  'P31-40'   '10' \
+                  'PWR5'     '1' \
+                  'R10'      '1' \
+                  'R12'      '2' \
+                  'R13'      '2' \
+                  'R14'      '1' \
+                  'R2'       '1' \
+                  'R9'       '1' \
+                  'RAM-62256P' '28' \
+                  'ROM-58C256' '27' \
+                  'ROM-58C256' '28' \
+                  'TCS0'     '1' \
+                  'USB'      'VBUS' \
+                  ;
+Change Class 0;
+Signal 'WR*'      '8085-MPU' '31' \
+                  'MEM-DEC'  '1' \
+                  'P31-40'   '1' \
+                  ;
+Change Class 0;
+Signal 'X1'       '8085-MPU' '1' \
+                  'CRYSTAL'  '2' \
+                  'P1-10'    '1' \
+                  ;
+Change Class 0;
+Signal 'X2'       '8085-MPU' '2' \
+                  'C7'       '1' \
+                  'CRYSTAL'  '1' \
+                  'P1-10'    '2' \
+                  ;
