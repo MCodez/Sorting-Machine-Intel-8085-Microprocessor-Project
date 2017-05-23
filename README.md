@@ -4,3 +4,5 @@ This project is a realization of PLCs used in industries. Sorting Machine is wor
 Autodesk Eagle 8.2.0 is used for designing the schematic and PCB. PCB fabricated at PCBPower,Gujrat. 
 
 Assembly Programming is done on Jubin Simulator. Hex file conversion to Binary is done by Hex2Bin.exe 
+ 
+Complete Demonstration of my project is available at YOUTUBE : https://www.youtube.com/watch?v=vYNUx6895Gs
