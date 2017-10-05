@@ -5,4 +5,9 @@ Autodesk Eagle 8.2.0 is used for designing the schematic and PCB. PCB fabricated
 
 Assembly Programming is done on Jubin Simulator. Hex file conversion to Binary is done by Hex2Bin.exe 
  
-Complete Demonstration of my project is available at YOUTUBE : https://www.youtube.com/watch?v=vYNUx6895Gs
+<br/>
+<center>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=vYNUx6895Gs
+" target="_blank"><img src="http://img.youtube.com/vi/vYNUx6895Gs/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="500" height="360" border="10" align = "center"/></a>
+</center>
